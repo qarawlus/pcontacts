@@ -13,7 +13,7 @@ import PContacts.IOFunctions as PContacts
 if __name__ == '__main__':
   
   # YAML File 
-	file = "./data/contacts.yaml"
+	file = "../data/contacts.yaml"
   
   # Initilization of Argument Parser and setting up arguments 
 	parser = argparse.ArgumentParser(description="Python YAML Address Book")
