@@ -19,6 +19,7 @@ The above example will list all the contact entries currently available in the Y
 The options available to the user for running the program are:
 
 ```--list or -l```: this lists the current contacts in the contacts book file.
+
 ```--show ContactName```: this shows the details of the contact specified, if the contact does not exist, the program will simply state that.
 
 ```--add ContactName --number "0123456789" --email "test@example.com"``` will add a new contact to the list of contacts. The YAML file will be updated accordingly. 
