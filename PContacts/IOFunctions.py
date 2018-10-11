@@ -31,7 +31,11 @@ def add(name,number,email,file):
 def list(data):
 	counter = 1
 	output = ""
-	for contact,details in data.items():
-		output+="Contact #"+str(counter)+":\r\n\tName:"+contact+"\r\n\tEmail: "+details['EMAIL']+"\r\n\tPhone Number: "+details['PHONE']+"\r\n"
-		counter+=1
+	if data!=None:
+		for contact,details in data.items():
+			output+="Contact #"+str(counter)+":\r\n\tName:"+contact+"\r\n\tEmail: "+details['EMAIL']+"\r\n\tPhone Number: "+details['PHONE']+"\r\n"
+			counter+=1
+	else:
+		output="There are no contacts available."
+
 	return output
