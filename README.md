@@ -1,5 +1,8 @@
 # PContacts 
-Python YAML Address Book tool 
+Python YAML Address Book tool
+
+WARNING: This tool requires the PyYAML package, please install it before installing this package. 
+More information on PyYAML install can be found on https://pyyaml.org/wiki/PyYAMLDocumentation 
 
 This tool reads and writes to a YAML file to store contact entries. 
 Each contact stored has a name, an email field, and a number field. 
