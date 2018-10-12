@@ -34,13 +34,13 @@ if __name__ == '__main__':
 		file = args.file
 
 	if args.list==True:
-		print PContacts.list(contacts)
+		print(PContacts.list(contacts))
 	
 	elif args.add!=None and args.number!=None and args.email!=None and args.show==None:
 		PContacts.add(args.add,args.number,args.email,file)
 		print("Contact was added successfully!")
 	
 	elif args.show!=None: 
-		print PContacts.show(args.show,contacts)
+		print(PContacts.show(args.show,contacts))
 	else: 
 		print ("Python YAML Address Book.\r\nIncorrect use, for options, run PContacts -h or --help.")
